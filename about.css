@@ -1,0 +1,206 @@
+#about_us{
+    padding-top: 5px;
+    background-image: url(https://img.freepik.com/free-photo/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background_144627-24860.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699488000&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+#heading_1 {
+  text-align: center;
+  /* color: aliceblue; */
+}
+
+#contact_us{
+    width: 100%;
+    background-image: url('backkkkk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.llo{
+    color: aliceblue;
+    text-align: center;
+}
+
+#contact_us ul{
+ text-align: center;
+    list-style-type: none;
+}
+.team {
+    /* width: 70%; */
+    height: 30vh;
+    /*     justify-content: center; */
+    margin: auto;
+    display: block;
+    object-fit: cover;
+}
+.team:hover{
+  border-radius: 100px;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+#drukpa {
+    width: 100%;
+        height: auto;
+    background-color: lightgray;
+}
+#drukpaOnline {
+    width: 100%;
+        height: 190vh;
+    background-color: lightgray;
+}
+#online {
+/*     border: 1px solid black; */
+    width: 40%;
+    height: 50vh;
+    margin: 0 auto;
+    align-items: center;
+    /*     display: flex; */
+}
+
+#onlineTwo {
+    width: 100%;
+    display: flex;
+}
+
+.onlineInner {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 50vh;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+.topnav {
+  /* width: 100%; */
+    margin: 0%;
+    overflow: hidden;
+    background-color: lightgrey;
+    position: relative;
+    
+  }
+  
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    /* width: 100%; */
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  
+  .topnav a.icon {
+    background: rgb(208, 196, 196);
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 7vh;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: rgba(134, 215, 215, 0.057);
+    color: black;
+  }
+  .active {
+    background-color:rgb(140, 156, 150)b;
+    color: white;
+  }
+  
+  .active img{
+    width: 15%;
+    height: 15vh;
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  .footer ul {
+     list-style-type: none;
+      display: flex;
+      gap: 10px;
+   }
+  
+  .footer {
+    position: relative;
+    /* width: 100%; */
+    background: #3586ff;
+  /*   min-height: 100vh; */
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  
+  /* respomsive web */
+   @media (max-width:600px){
+      #push{
+          display: none;
+      }
+  
+  .hide{
+       visibility: hidden;
+      }
+      #thrinley{
+         overflow-x: hidden;
+          
+      }
+      #bodySection{
+          display: none;
+      }
+  
+  }
+  .container-fluid{
+    margin: 0;
+   
+    height: 100px;
+  }

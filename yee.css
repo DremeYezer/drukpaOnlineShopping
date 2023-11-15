@@ -1,0 +1,1168 @@
+/* working with index.html */
+#parentDiv {
+    width: 100%;
+    height: 60vh;
+/*     background-color: lightblue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.innerDiv {
+    width: 25%;
+    height: 50vh;
+/*     border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
+}
+
+.innerDiv:hover {
+    transform: scale(1.05);
+/*     background-color: lightgray; */
+}
+
+.shirt {
+    width: 90%;
+    height: 35vh;
+    display: block;
+    margin: auto;
+}
+.shirtOne{
+    width: 90%;
+    height: 25vh;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
+.shritBtn {
+    font-size: 10px;
+    background-color: yellow;
+}
+
+.description {
+    text-align: center;
+    font-size: 10px;
+}
+
+.sizeSelect {
+    margin: auto;
+    display: block;
+}
+
+.detailBtn {
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    border: none;
+}
+
+.detailLink {
+    text-decoration-line: none;
+}
+
+/* working with boot.html */
+#bootContainer {
+    width: 100%;
+    height: 100vh;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.bootOne {
+    width: 100%;
+    height: 50vh;
+    margin-top: 40px;
+}
+
+.imageDivOne {
+    width: 25%;
+    height: 50vh;
+    padding-left: 10px;
+}
+
+#bootDes {
+    width: 35%;
+    height: 80vh;
+    /* background-color: lightgoldenrodyellow; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+#deliveryOption {
+    width: 35%;
+    height: 80vh;
+    /* background-color: lightgoldenrodyellow; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+#paymentTwoS {
+    position: relative;
+    top: 5px;
+    margin-top: 5px;
+}
+
+#accNumber {
+    position: relative;
+    top: 15px;
+}
+
+#pay {
+    position: relative;
+    top: 15px;
+}
+
+.paymentOne {
+    margin-top: 5px;
+}
+
+.types {
+    width: 30%;
+    height: 21vh;
+}
+
+.typesw {
+    width: 30%;
+    height: 21vh;
+}
+
+.tsholamType {
+    border: none;
+    background-color: inherit;
+}
+
+.more {
+    text-decoration: none;
+}
+
+.bootBack {
+    position: relative;
+    bottom: 50px;
+    /* left: 600px; */
+    border: none;
+    background-color: inherit;
+}
+
+
+/* working with bootDesplay.html */
+#tsholhamMainCon {
+    width: 100%;
+    height: 100vh;
+    /* background-color: lightcoral; */
+    text-align: center;
+}
+
+#typeContainer {
+    width: 100%;
+    height: 46vh;
+    /* background-color: lightgrey; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#typeContainerTwo {
+    width: 100%;
+    height: 46vh;
+    /* background-color: lightgrey; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.one {
+    width: 100%;
+    height: 25vh;
+}
+
+.tsholham {
+    width: 20%;
+    height: 40vh;
+    /* background-color: yellowgreen; */
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.women {
+    width: 20%;
+    height: 40vh;
+    /* background-color: yellow; */
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.tsholamType {
+    display: block;
+    margin: auto;
+}
+
+/* dreme.html */
+#dremeYezer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dremeOne {
+    width: 35%;
+    height: 100vh;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#dremeTwo {
+    width: 35%;
+    height: 100vh;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* dremeDesplay.html */
+#TV {
+    width: 100%;
+    height: 100vh;
+    /* background-color: lightcoral; */
+    text-align: center;
+}
+
+#TVOne {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+}
+
+.tvt {
+    width: 45%;
+    height: 45vh;
+    /* background-color: yellowgreen; */
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.tvt:hover {
+    transform: scale(1.05);
+}
+
+.tbone {
+    width: 90%;
+    height: 29vh;
+    cursor: pointer;
+    padding: 5px 0 0 0;
+}
+/* phoneDesplay.html */
+#namgayYezer{
+     width: 100%;
+    height: 100vh;
+/*     background-color: lightcoral; */
+    text-align: center;
+}
+#yezerNamgay{
+    width: 100%;
+    height: 50vh;
+/*     background-color: lightgrey; */
+    display: flex;
+/*     border: 1px solid red; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+.iphone {
+    width: 30%;
+    height: 45vh;
+    /* background-color: yellowgreen; */
+    /* border: 2px solid black; */
+    text-align: center;
+    
+}
+.iphone:hover{
+    transform: scale(1.05);
+}
+.phone {
+    width: 100%;
+    height: 30vh;
+    cursor: pointer;
+}
+.topnav {
+    /* width: 100%; */
+    margin: 0%;
+    overflow: hidden;
+    background-color: lightgrey;
+    position: relative;
+    
+  }
+  
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  
+  .topnav a.icon {
+    background: rgb(208, 196, 196);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 7VH;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: rgba(134, 215, 215, 0.057);
+    color: black;
+  }
+  .active {
+    background-color:rgb(140, 156, 150)b;
+    color: white;
+  }
+  
+  .active img{
+    width: 20%;
+    height: 20vh;
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  .footer ul {
+     list-style-type: none;
+      display: flex;
+      gap: 10px;
+   }
+  
+  .footer {
+    position: relative;
+    /* width: 100%; */
+    background: #3586ff;
+  /*   min-height: 100vh; */
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  
+
+
+
+
+
+
+  /* respomsive web */
+   @media (max-width:600px){
+    /* working with index.html */
+#parentDiv {
+    width: 100%;
+    height: 60vh;
+/*     background-color: lightblue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.innerDiv {
+    width: 25%;
+    height: 50vh;
+/*     border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
+}
+
+.innerDiv:hover {
+    transform: scale(1.05);
+/*     background-color: lightgray; */
+}
+
+.shirt {
+    width: 90%;
+    height: 35vh;
+    display: block;
+    margin: auto;
+}
+.shirtOne{
+    width: 90%;
+    height: 25vh;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
+.shritBtn {
+    font-size: 10px;
+    background-color: yellow;
+}
+
+.description {
+    text-align: center;
+    font-size: 10px;
+}
+
+.sizeSelect {
+    margin: auto;
+    display: block;
+}
+
+.detailBtn {
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    border: none;
+}
+
+.detailLink {
+    text-decoration-line: none;
+}
+
+/* working with boot.html */
+#bootContainer {
+    width: 100%;
+    height: 100vh;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.bootOne {
+    width: 100%;
+    height: 50vh;
+    margin-top: 40px;
+}
+
+.imageDivOne {
+    width: 25%;
+    height: 50vh;
+    padding-left: 10px;
+}
+
+#bootDes {
+    width: 35%;
+    height: 80vh;
+    /* background-color: lightgoldenrodyellow; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+#deliveryOption {
+    width: 35%;
+    height: 80vh;
+    /* background-color: lightgoldenrodyellow; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+#paymentTwoS {
+    position: relative;
+    top: 5px;
+    margin-top: 5px;
+}
+
+#accNumber {
+    position: relative;
+    top: 15px;
+}
+
+#pay {
+    position: relative;
+    top: 15px;
+}
+
+.paymentOne {
+    margin-top: 5px;
+}
+
+.types {
+    width: 30%;
+    height: 21vh;
+}
+
+.typesw {
+    width: 30%;
+    height: 21vh;
+}
+
+.tsholamType {
+    border: none;
+    background-color: inherit;
+}
+
+.more {
+    text-decoration: none;
+}
+
+.bootBack {
+    /* position: relative; */
+    bottom: 50px;
+    /* left: 1px; */
+    /* border: none; */
+    background-color: inherit;
+}
+
+
+/* working with bootDesplay.html */
+#tsholhamMainCon {
+    width: 100%;
+    height: 100vh;
+    /* background-color: lightcoral; */
+    text-align: center;
+}
+
+#typeContainer {
+    width: 100%;
+    height: 46vh;
+    /* background-color: lightgrey; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#typeContainerTwo {
+    width: 100%;
+    height: 46vh;
+    /* background-color: lightgrey; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.one {
+    width: 100%;
+    height: 25vh;
+}
+
+.tsholham {
+    width: 20%;
+    height: 40vh;
+    /* background-color: yellowgreen; */
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.women {
+    width: 20%;
+    height: 40vh;
+    /* background-color: yellow; */
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.tsholamType {
+    display: block;
+    margin: auto;
+}
+
+/* dreme.html */
+#dremeYezer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dremeOne {
+    width: 35%;
+    height: 100vh;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#dremeTwo {
+    width: 35%;
+    height: 100vh;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* dremeDesplay.html */
+#TV {
+    width: 100%;
+    height: 100vh;
+    /* background-color: lightcoral; */
+    text-align: center;
+}
+
+#TVOne {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+}
+
+.tvt {
+    width: 45%;
+    height: 45vh;
+    /* background-color: yellowgreen; */
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.tvt:hover {
+    transform: scale(1.05);
+}
+
+.tbone {
+    width: 90%;
+    height: 29vh;
+    cursor: pointer;
+    padding: 5px 0 0 0;
+}
+/* phoneDesplay.html */
+#namgayYezer{
+     width: 100%;
+    height: 100vh;
+/*     background-color: lightcoral; */
+    text-align: center;
+}
+#yezerNamgay{
+    width: 100%;
+    height: 50vh;
+/*     background-color: lightgrey; */
+    display: flex;
+/*     border: 1px solid red; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+.iphone {
+    width: 30%;
+    height: 45vh;
+    /* background-color: yellowgreen; */
+    /* border: 2px solid black; */
+    text-align: center;
+    
+}
+.iphone:hover{
+    transform: scale(1.05);
+}
+.phone {
+    width: 100%;
+    height: 30vh;
+    cursor: pointer;
+}
+.topnav {
+    /* width: 100%; */
+    margin: 0%;
+    overflow: hidden;
+    background-color: lightgrey;
+    position: relative;
+    
+  }
+  
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  
+  .topnav a.icon {
+    background: rgb(208, 196, 196);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 7VH;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: rgba(134, 215, 215, 0.057);
+    color: black;
+  }
+  .active {
+    background-color:rgb(140, 156, 150)b;
+    color: white;
+  }
+  
+  .active img{
+    width: 20%;
+    height: 20vh;
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  .footer ul {
+     list-style-type: none;
+      display: flex;
+      gap: 10px;
+   }
+  
+  .footer {
+    position: relative;
+    /* width: 100%; */
+    background: #3586ff;
+  /*   min-height: 100vh; */
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+}
+@media (max-width:768) and (min-width:601){
+    #parentDiv {
+        width: 100%;
+        height: 60vh;
+    /*     background-color: lightblue; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .innerDiv {
+        width: 25%;
+        height: 50vh;
+    /*     border: 2px solid black; */
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .innerDiv:hover {
+        transform: scale(1.05);
+    /*     background-color: lightgray; */
+    }
+    
+    .shirt {
+        width: 90%;
+        height: 35vh;
+        display: block;
+        margin: auto;
+    }
+    .shirtOne{
+        width: 90%;
+        height: 25vh;
+        display: block;
+        margin: auto;
+        object-fit: cover;
+    }
+    .shritBtn {
+        font-size: 10px;
+        background-color: yellow;
+    }
+    
+    .description {
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .sizeSelect {
+        margin: auto;
+        display: block;
+    }
+    
+    .detailBtn {
+        margin: auto;
+        display: block;
+        margin-top: 10px;
+        border: none;
+    }
+    
+    .detailLink {
+        text-decoration-line: none;
+    }
+    
+    /* working with boot.html */
+    #bootContainer {
+        width: 100%;
+        height: 100vh;
+        /* background-color: lightblue; */
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .bootOne {
+        width: 100%;
+        height: 50vh;
+        margin-top: 40px;
+    }
+    
+    .imageDivOne {
+        width: 25%;
+        height: 50vh;
+        padding-left: 10px;
+    }
+    
+    #bootDes {
+        width: 35%;
+        height: 80vh;
+        /* background-color: lightgoldenrodyellow; */
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #deliveryOption {
+        width: 35%;
+        height: 80vh;
+        /* background-color: lightgoldenrodyellow; */
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #paymentTwoS {
+        position: relative;
+        top: 5px;
+        margin-top: 5px;
+    }
+    
+    #accNumber {
+        position: relative;
+        top: 15px;
+    }
+    
+    #pay {
+        position: relative;
+        top: 15px;
+    }
+    
+    .paymentOne {
+        margin-top: 5px;
+    }
+    
+    .types {
+        width: 30%;
+        height: 21vh;
+    }
+    
+    .typesw {
+        width: 30%;
+        height: 21vh;
+    }
+    
+    .tsholamType {
+        border: none;
+        background-color: inherit;
+    }
+    
+    .more {
+        text-decoration: none;
+    }
+    
+    .bootBack {
+        /* position: relative; */
+        bottom: 50px;
+        /* left: 1px; */
+        /* border: none; */
+        background-color: inherit;
+    }
+    
+    
+    /* working with bootDesplay.html */
+    #tsholhamMainCon {
+        width: 100%;
+        height: 100vh;
+        /* background-color: lightcoral; */
+        text-align: center;
+    }
+    
+    #typeContainer {
+        width: 100%;
+        height: 46vh;
+        /* background-color: lightgrey; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #typeContainerTwo {
+        width: 100%;
+        height: 46vh;
+        /* background-color: lightgrey; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .one {
+        width: 100%;
+        height: 25vh;
+    }
+    
+    .tsholham {
+        width: 20%;
+        height: 40vh;
+        /* background-color: yellowgreen; */
+        /* border: 2px solid black; */
+        text-align: center;
+    }
+    
+    .women {
+        width: 20%;
+        height: 40vh;
+        /* background-color: yellow; */
+        /* border: 2px solid black; */
+        text-align: center;
+    }
+    
+    .tsholamType {
+        display: block;
+        margin: auto;
+    }
+    
+    /* dreme.html */
+    #dremeYezer {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #dremeOne {
+        width: 35%;
+        height: 100vh;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #dremeTwo {
+        width: 35%;
+        height: 100vh;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    /* dremeDesplay.html */
+    #TV {
+        width: 100%;
+        height: 100vh;
+        /* background-color: lightcoral; */
+        text-align: center;
+    }
+    
+    #TVOne {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        object-fit: cover;
+    }
+    
+    .tvt {
+        width: 45%;
+        height: 45vh;
+        /* background-color: yellowgreen; */
+        /* border: 2px solid black; */
+        text-align: center;
+    }
+    
+    .tvt:hover {
+        transform: scale(1.05);
+    }
+    
+    .tbone {
+        width: 90%;
+        height: 29vh;
+        cursor: pointer;
+        padding: 5px 0 0 0;
+    }
+    /* phoneDesplay.html */
+    #namgayYezer{
+         width: 100%;
+        height: 100vh;
+    /*     background-color: lightcoral; */
+        text-align: center;
+    }
+    #yezerNamgay{
+        width: 100%;
+        height: 50vh;
+    /*     background-color: lightgrey; */
+        display: flex;
+    /*     border: 1px solid red; */
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .iphone {
+        width: 30%;
+        height: 45vh;
+        /* background-color: yellowgreen; */
+        /* border: 2px solid black; */
+        text-align: center;
+        
+    }
+    .iphone:hover{
+        transform: scale(1.05);
+    }
+    .phone {
+        width: 100%;
+        height: 30vh;
+        cursor: pointer;
+    }
+    .topnav {
+        /* width: 100%; */
+        margin: 0%;
+        overflow: hidden;
+        background-color: lightgrey;
+        position: relative;
+        
+      }
+      
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      
+      .topnav a.icon {
+        background: rgb(208, 196, 196);
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 7VH;
+      }
+      
+      
+      .topnav a:hover {
+        background-color: rgba(134, 215, 215, 0.057);
+        color: black;
+      }
+      .active {
+        background-color:rgb(140, 156, 150)b;
+        color: white;
+      }
+      
+      .active img{
+        width: 20%;
+        height: 20vh;
+      }
+      
+      .menu__link {
+        font-size: 1.2rem;
+        color: #fff;
+        margin: 0 10px;
+        display: inline-block;
+        transition: 0.5s;
+        text-decoration: none;
+        opacity: 0.75;
+        
+      }
+      
+      .menu__link:hover {
+        opacity: 1;
+      }
+      .footer ul {
+         list-style-type: none;
+          display: flex;
+          gap: 10px;
+       }
+      
+      .footer {
+        position: relative;
+        /* width: 100%; */
+        background: #3586ff;
+      /*   min-height: 100vh; */
+        padding: 20px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .menu__link {
+        font-size: 1.2rem;
+        color: #fff;
+        margin: 0 10px;
+        display: inline-block;
+        transition: 0.5s;
+        text-decoration: none;
+        opacity: 0.75;
+        
+      }
+      
+      .menu__link:hover {
+        opacity: 1;
+      }
+      
+      .footer p {
+        color: #fff;
+        margin: 15px 0 10px 0;
+        font-size: 1rem;
+        font-weight: 300;
+      }
+    }
+}
